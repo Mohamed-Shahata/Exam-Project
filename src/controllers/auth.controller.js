@@ -38,8 +38,8 @@ export const login = async (req, res, next) => {
 // export const login = async (req, res, next) => {
 //   const { email, password, name } = req.body;
 
-//   await User.create({
-//     email, password, name, role: "Admin"
+//   await Admin.create({
+//     email, password, name
 //   })
 
 //   res.status(200).json({ success: true, message: "Login success" })
