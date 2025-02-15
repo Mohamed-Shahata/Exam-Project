@@ -1,4 +1,4 @@
-import Admin from "../models/admin.js";
+import Admin from "../models/Admin.js";
 import Instructor from "../models/Instructor.js";
 import Student from "../models/Student.js";
 import bcryptjs from "bcryptjs";
